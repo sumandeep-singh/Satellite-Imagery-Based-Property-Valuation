@@ -1,0 +1,28 @@
+# Virtual Environment
+venv/
+env/
+.env
+.vscode
+
+# Python/Compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data & Large Files (Don't upload datasets or images)
+images/
+*.zip
+
+# Deep Learning Models & Checkpoints
+*.pth
+*.h5
+*.ckpt
+
+# OS/System files
+.DS_Store
+Thumbs.db
+
+# Environment Variables (Crucial: Hide your API Keys!)
+.env
+api_keys.json
+data/processed/image_embeddings_fusion.npy
